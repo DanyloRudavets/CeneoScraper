@@ -16,7 +16,7 @@ i otrzymujemy(response)
 ## Struktura opini w serwisie Ceneo.pl
 |skladoa|zmienna|selektor|
 |-------|-------|--------|
-|opinia|review|.js_product-review|
+|opinia|review|div.js_product-review:not(.user-post--highlight)|
 | identyfikator opinii|review_id|['data-entry-id']|
 | autora|author|.user-post__author-name|
 | rekomendację|recomendation|span.user-post__author-recomendation > em|
