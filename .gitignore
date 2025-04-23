@@ -173,5 +173,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 # aplikacja
-headers.json
-./opinions
+opinions/
